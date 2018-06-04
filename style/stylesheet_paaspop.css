@@ -1,0 +1,58 @@
+/* Standard settings */
+*{padding: 0; margin: 0}
+html, body { height: 100% }
+
+@font-face {
+    font-family: CA;
+    src: url(fonts/American%20Captain.ttf);
+    src: url(fonts/American%20Captain.otf);
+}
+
+html{
+    background-image: url(img/bg_pp_sven.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: CA;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+#name, #q1, #q2, #q3, #timer{
+    position: absolute;
+    left: 115px;
+}
+#name, #timer{
+    color: #FDBA58;
+}
+#questions li{
+    display: none;
+}
+#q1, #q2, #q3{
+    display: block !important;
+    color: #160E2F;
+    font-size: 40px;
+}
+#name{
+    top: 107px;
+    font-size: 60px;
+}
+#q1{
+    top: 246px;
+}
+#q2{
+    top: 356px;
+}
+#q3{
+    top: 466px;
+}
+#timer{
+    top: 590px;
+    font-size: 55px;
+}

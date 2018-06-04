@@ -1,0 +1,64 @@
+/* Standard settings */
+*{padding: 0; margin: 0}
+html, body { height: 100% }
+
+@font-face {
+    font-family: CA;
+    src: url(fonts/BebasNeue%20Bold.ttf);
+    src: url(fonts/BebasNeue%20Bold.otf);
+}
+
+html{
+    background-image: url(img/bg_pp_sven_beeldbuis2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: CA;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+#name, #q1, #q2, #q3, #timer{
+    text-shadow:
+   -2px -2px 0 rgba(0, 0, 0, 0.493),  
+    2px -2px 0 rgba(0, 0, 0, 0.493), 
+    -2px 2px 0 rgba(0, 0, 0, 0.493), 
+     2px 2px 0 rgba(0, 0, 0, 0.493);
+    position: absolute;
+    left: 100px;
+}
+#name, #timer{
+    color: #f7e50e;
+}
+#questions li{
+    display: none;
+}
+#q1, #q2, #q3{
+    display: block !important;
+    color: #f7e50e;
+    font-size: 40px;
+}
+#name{
+    display: none;
+    top: 107px;
+    font-size: 60px;
+}
+#q1{
+    top: 246px;
+}
+#q2{
+    top: 360px;
+}
+#q3{
+    top: 473px;
+}
+#timer{
+    top: 600px;
+    font-size: 55px;
+}

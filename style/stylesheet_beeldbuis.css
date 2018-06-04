@@ -1,0 +1,58 @@
+/* Standard settings */
+*{padding: 0; margin: 0}
+html, body { height: 100% }
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+html{
+    background-image: url(img/bg_pp_sven_beeldbuis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+#name, #q1, #q2, #q3, #timer{
+    position: absolute;
+    left: 115px;
+}
+#name, #timer{
+    color: #FAE303;
+}
+#questions li{
+    display: none;
+}
+#q1, #q2, #q3{
+    display: block !important;
+    color: #FAE303;
+    font-size: 40px;
+}
+#name{
+    top: 107px;
+    font-size: 60px;
+}
+#q1{
+    top: 246px;
+}
+#q2{
+    top: 356px;
+}
+#q3{
+    top: 466px;
+}
+#timer{
+    top: 590px;
+    font-size: 55px;
+}
